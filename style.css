@@ -1,0 +1,109 @@
+@media (max-width: 480px) {
+    body {
+        background-color: #EFEFEF;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .wrapper {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .wrap-img {
+        width: 100%;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .mainimg {
+        width: 40%;
+        border-radius: 40px;
+    }
+
+    .text-store {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .appstore {
+        display: block;
+        margin:0 auto;
+        text-align: center;
+        background-color: #6f4cb3;
+        color: #ffff;
+        width: 40%;
+        padding: 3px 35px;
+        margin-top: 30px;
+        border-radius: 15px;
+        border: none;
+        text-decoration: none;
+    }
+
+    .appstore:hover {
+        background-color: #7d3fac;
+    }
+
+    .wrap-store .appstore .text-store img {
+        width: 30%;
+        display: block;
+        margin: 0 0;
+    }
+
+    p {
+        font-size: 15px;
+    }
+    .wrapper-img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .wrapper-img .img1 {
+        width: 40%;
+        border-radius: 10px;
+        position: relative;
+        transform: rotate(-0.08turn);
+        bottom: 70px;
+        left: -5px;
+    }
+
+    .wrapper-img .img2 {
+        width: 40%;
+        border-radius: 10px;
+        position: relative;
+        transform: rotate(-0.08turn);
+        right: -70px;
+    }
+
+    .wrapper-img .img3 {
+        width: 40%;
+        border-radius: 10px;
+        position: relative;
+        /* bottom: -200px;
+        left: -30px; */
+        transform: rotate(-0.08turn);
+        top: -95px;
+        left: 170px;
+    }
+
+    .wrapper-img .img4 {
+        width: 40%;
+        border-radius: 10px;
+        position: relative;
+        /* bottom: -200px;
+        left: -30px; */
+        transform: rotate(-0.08turn);
+        top: -115px;
+        left: -220px;
+    }
+}
