@@ -1,6 +1,7 @@
 @media (max-width: 480px) {
     body {
-        background-color: #EFEFEF;
+        /* background-color: #EFEFEF; */
+        background-color: aqua;
         padding: 0;
         margin: 0;
         box-sizing: border-box;
@@ -86,7 +87,7 @@
         border-radius: 10px;
         position: relative;
         transform: rotate(-0.08turn);
-        right: -70px;
+        right: -80px;
     }
 
     .wrapper-img .img3 {
@@ -97,7 +98,7 @@
         left: -30px; */
         transform: rotate(-0.08turn);
         top: -95px;
-        left: 170px;
+        left: 180px;
     }
 
     .wrapper-img .img4 {
